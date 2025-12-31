@@ -7,9 +7,9 @@ metadata:
     tier: front
   name: vote
 spec:
-  replicas: 3
+  replicas: 6
   template:
     spec:
       containers:
-      - image: schoolofdevops/vote:v4
+      - image: schoolofdevops/vote:v6
         name: vote
